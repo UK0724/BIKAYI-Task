@@ -5,7 +5,7 @@ import Table from './Components/Table';
 import Topwinners from './Components/Topwinners';
 
 
-const url = `http://api.nobelprize.org/v1/prize.json`
+const url = `https://api.nobelprize.org/v1/prize.json`
 function App() {
   const [Data, setData] = useState([])
   const [Year, setYear] = useState('All')
